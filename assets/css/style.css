@@ -110,7 +110,8 @@ body {
 
 .product-card img {
   width: 100%;
-  aspect-ratio: 16/9;
+  height: 150px;
+  aspect-ratio: 4/3;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -119,11 +120,12 @@ body {
 .btn-order {
   display: inline-block;
   margin-top: 10px;
-  padding: 10px 20px;
+  padding: 6px 14px;
   background-color: #b35ea5;
   color: white;
-  border-radius: 25px;
+  border-radius: 20px;
   text-decoration: none;
+  font-size: 14px;
   transition: .3s;
 }
 
