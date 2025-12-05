@@ -1,0 +1,27 @@
+<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+<style>
+  .petal { fill:#D7B6E6; animation: breathe 3.5s ease-in-out infinite; transform-origin:110px 110px; }
+  .center { fill:#4B2E59; animation: pulse 5s ease-in-out infinite; }
+  .leaf { stroke:#7b4e86; stroke-width:2; fill:none; opacity:0.8; }
+  @keyframes breathe {
+    0% { transform: scale(1) rotate(0deg); }
+    50% { transform: scale(1.05) rotate(-2deg); }
+    100% { transform: scale(1) rotate(0deg); }
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.04); }
+    100% { transform: scale(1); }
+  }
+</style>
+
+<g transform="translate(110,110)">
+  <path class="petal" d="M0,-8 C18,-42 56,-36 68,-6 C56,4 22,12 0,-8 Z"></path>
+  <path class="petal" d="M0,-8 C-18,-42 -56,-36 -68,-6 C-56,4 -22,12 0,-8 Z"></path>
+  <path class="petal" d="M-8,0 C-42,18 -36,56 -6,68 C4,56 12,22 -8,0 Z"></path>
+  <path class="petal" d="M-8,0 C-42,-18 -36,-56 -6,-68 C4,-56 12,-22 -8,0 Z"></path>
+  <circle class="center" cx="0" cy="0" r="11"></circle>
+  <path class="leaf" d="M-60,40 C-35,20 -10,12 0,10"></path>
+  <path class="leaf" d="M60,-30 C35,-10 10,-8 0,-6"></path>
+</g>
+</svg>
