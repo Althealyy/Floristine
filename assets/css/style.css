@@ -85,6 +85,7 @@ body {
   transform: scale(1.05);
   z-index: 2;
 }
+<<<<<<< HEAD
 
 /* --- ANIMASI BUNGA --- */
 .anim-float {
@@ -126,3 +127,54 @@ body {
   line-height: 1.2;
 }
 
+=======
+body {
+  background-color: #b5a5e3;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.product-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 250px;
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.btn-order {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 14px;
+  background-color: #b35ea5;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: .3s;
+}
+
+.btn-order:hover {
+  background-color: #8e4c8c;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(155,77,146,0.2);
+}
+>>>>>>> 03fa4c0b33c4a472dc89aff20d9a7bac1cd45d4a
