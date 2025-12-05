@@ -96,3 +96,33 @@ body {
   50%  { transform: translateY(-15px); }
   100% { transform: translateY(0px); }
 }
+
+/* Ukuran gambar ABOUT diperkecil */
+.about-img {
+  width: 200px;      /* kecil */
+  max-width: 100%;
+  animation: float 3s ease-in-out infinite; /* kalau ingin tetap animasi */
+}
+
+/* Bullet list ABOUT diganti icon bunga */
+.about-text ul {
+  list-style: none;          /* hilangkan bullet default */
+  text-align: center;        /* rata tengah */
+  padding: 0;
+}
+
+.about-text ul li {
+  margin: 6px 0;
+  position: relative;
+  padding-left: 25px;        /* ruang untuk icon */
+  font-weight: 500;
+}
+
+.about-text ul li::before {           /* icon bunga */
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
